@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="obj\layout_check.ps1" />
+    <None Include="obj\mock_redmine.ps1" />
+    <None Include="obj\ui_probe.ps1" />
+    <None Include="obj\ui_test.ps1" />
+    <None Include="obj\ui_test2.ps1" />
+    <None Include="obj\ui_test3.ps1" />
+  </ItemGroup>
+
+</Project>
