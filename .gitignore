@@ -27,3 +27,5 @@ Thumbs.db
 
 ## App local settings (contains API key)
 settings.json
+
+publish/
